@@ -10,6 +10,10 @@ public:
         std::cout << "Default constuctor of shape class Initialized..." << '\n';
     }
 
+    virtual double calculate_area() const = 0;
+
+    virtual double calculate_perimeter() const = 0;
+
 private:
 
 };
